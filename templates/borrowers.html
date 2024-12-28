@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Borrower</title>
+</head>
+<body>
+	<h1>Add Borrower</h1>
+	<form action="/borrowers" method="post">
+		<table>
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" name="name" id="name" required></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="email"  name="email" id="email" required></td>
+			</tr>
+			<tr>
+				<td>Phone Number:</td>
+				<td><input type="text" name="phone_number" id="phone_number" required></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><textarea id="address" name="address" required></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Add Borrower"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+

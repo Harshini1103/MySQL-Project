@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Borrow Book</title>
+</head>
+<body>
+	<h1>Borrow Book</h1>
+	<form action="/fines" method="post">
+		<table>
+			<tr>
+				<td>Book ID:</td>
+				<td><input type="number" id="bookID" name="bookID" required></td>
+			</tr>
+			<tr>
+			    <td>Borrower ID:</td>
+				<td><input type="number" id="borrowerid" name="borrowerid" required></td>
+			</tr>
+			<tr>
+				<td>Borrow Date:</td>
+				<td><input type="date" id="borrowdate" name="borrowdate" required></td>
+			</tr>
+			<tr>
+				<td>Return Date:</td>
+				<td><input type="date" id="returndate" name="returndate" required></td>
+			</tr>
+			<tr>
+				<td>Fine Amount:</td>
+				<td><input type="number" id="fineamount" name="fineamount" required></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Borrow Book"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
